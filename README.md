@@ -11,7 +11,7 @@ Projeto realizado para auxiliar pessoas que desejam fazer um churrasco e precisa
 ![Mobile 2](https://github.com/Zucheli/Barbecue/blob/main/assets/Churrascômetro2.png)
 
 # Autor
-Mateus Henrique Zucheli 
+Mateus Zucheli 
 
 https://www.linkedin.com/in/mateus-zucheli-8b5b76171/
 
