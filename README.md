@@ -2,6 +2,8 @@
 
 # Sobre o Projeto
 
+https://barbecue.netlify.app
+
 Projeto realizado para auxiliar pessoas que desejam fazer um churrasco e precisam saber a quantidade de carnes e bebidas.
 
 ## Layout Mobile
