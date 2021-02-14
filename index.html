@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" href="./assets/bbq.png">
+        <title>Churrascômetro</title>
+    </head>
+    <body>
+        <header>
+            <h1>Churrascômetro</h1>
+        </header>
+        <div class="container">
+            <div class="card">
+                <div class="card-inputs" id="card-inputs">
+                    <div class="card-inputs-group">
+                        <input type="number" name="Nº de Homens" id="numHomens" placeholder="Nº de Homens">
+                    </div>
+                    <div class="card-inputs-group">
+                        <input type="number" name="Nº de Mulheres" id="numMulheres" placeholder="Nº de Mulheres">
+                    </div>
+                    <div class="card-inputs-group">
+                        <input type="number" name="Nº de Crianças" id="numCriancas" placeholder="Nº de Crianças">
+                    </div>
+                    <div class="card-inputs-group">
+                        <input type="number" name="Duração" id="duracao" placeholder="Duração (Horas)">
+                    </div>
+                </div>
+                <h3>O que terá no seu churrasco?</h3>
+                <div class="card-icons" id="card-icons">
+                    <img src="./assets/meat.png" alt="Carne" onclick=enableMeatIcon(this) id="carne">
+
+                    <img src="./assets/chicken.png" alt="Frango" onclick=enableMeatIcon(this) id="frango">
+
+                    <img src="./assets/can.png" alt="Refrigerante" onclick=enableMeatIcon(this) id="refri">
+
+                    <img src="./assets/beer.png" alt="Cerveja" onclick=enableMeatIcon(this) id="cerveja">
+                </div>
+                <div class="card-button">
+                    <button onclick=barbecueValue(this)>
+                        CHURRASQUEAR
+                    </button>
+                </div>
+            </div>
+
+            <!-- Resultados -->
+            <div class="result">
+                <p class="title">Hora de colocar a mão na lenha 🔥</p>
+                <p class="subTitle">Você vai precisar de:</p>
+                <div class="result-outputs" id="result-outputs">
+                    <div class="result-outputs-group">
+                        <img src="./assets/meat.png" alt="Carne" id="carne">
+                        <p></p>
+                    </div>
+                    <div class="result-outputs-group">
+                        <img src="./assets/chicken.png" alt="Frango" id="frango">
+                        <p></p>
+                    </div>
+                    <div class="result-outputs-group">
+                        <img src="./assets/can.png" alt="Refrigerante" id="refri">
+                        <p></p>
+                    </div>
+                    <div class="result-outputs-group">
+                        <img src="./assets/beer.png" alt="Cerveja" id="cerveja">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="result-button">
+                    <button onclick="reset()">
+                        REFAZER CÁLCULO
+                    </button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            Feito por <a href="https://github.com/Zucheli">Mateus Zucheli</a> e inspirado no projeto do <a href="https://github.com/antonvinicius/churrascometro">Antônio Vinícius</a> 
+            <br>
+            <br>
+            Icons made by <a href="" title="prettycons">prettycons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            <br>
+            Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </footer>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
