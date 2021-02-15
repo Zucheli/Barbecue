@@ -182,3 +182,89 @@ footer a {
 .result-button button:focus {
     outline: none;
 }
+
+/*-------------------------Responsive-------------------------*/
+@media (max-width: 1150px) {
+    .container {
+        display:grid;
+    }
+}
+
+@media (max-width: 550px) {
+    header {
+        font-size: 18px;
+    }
+
+    .card {
+        width: 300px;
+        height: 650px;
+    }
+    
+    .card input {
+        width: 200px;
+    }
+    
+    .card h3 {
+        font-size: 15px;
+    }
+
+    .result {
+        width: 300px;
+        height: 600px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+    
+    .subTitle {
+        font-size: 20px;
+    }
+
+    .result-outputs {
+        display: block;
+    }
+    
+    .result-outputs p {
+        width: 150px;
+    }
+}
+
+@media (max-width: 350px) {
+    .card {
+        width: 200px;
+        height: 830px;
+    }
+    
+    .card input {
+        width: 100px;
+    }
+
+    .card-button button {
+        font-size: 15px;
+    }
+
+    .result {
+        width: 200px;
+        height: 850px;
+    }
+    
+    .subTitle {
+        font-size: 15px;
+    }
+    
+    .result-outputs p {
+        float: none;
+        width: 150px;
+        margin: auto;
+    }
+    
+    .result img {
+        float: none;
+        width: 50px;
+    }
+    
+    .result-button button {
+        font-size: 15px;
+    }
+}
