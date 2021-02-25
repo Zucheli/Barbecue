@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.image-linkedin {
+    width: 0px;
+    height: 0px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     height: 100%;
