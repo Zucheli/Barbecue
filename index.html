@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/style.css">
-        <link rel="icon" href="./assets/bbq.png">
+        <link rel="icon" href="./assets/icon.png">
         <title>Churrascômetro</title>
     </head>
     <body>
         <header>
-            <h1>Churrascômetro</h1>
+            <img src="./assets/logo.png" alt="Logo">
         </header>
         <div class="container">
             <div class="card">
@@ -27,7 +27,6 @@
                         <input type="number" name="Duração" id="duracao" placeholder="Duração (Horas)">
                     </div>
                 </div>
-                <h3>O que terá no seu churrasco?</h3>
                 <div class="card-icons" id="card-icons">
                     <img src="./assets/meat.png" alt="Carne" onclick=enableMeatIcon(this) id="carne">
 
@@ -46,8 +45,6 @@
 
             <!-- Resultados -->
             <div class="result">
-                <p class="title">Hora de colocar a mão na lenha 🔥</p>
-                <p class="subTitle">Você vai precisar de:</p>
                 <div class="result-outputs" id="result-outputs">
                     <div class="result-outputs-group">
                         <img src="./assets/meat.png" alt="Carne" id="carne">
@@ -68,17 +65,16 @@
                 </div>
                 <div class="result-button">
                     <button onclick="reset()">
-                        REFAZER CÁLCULO
+                        REFAZER
                     </button>
                 </div>
             </div>
         </div>
         <footer>
             Feito por <a href="https://github.com/Zucheli">Mateus Zucheli</a> e inspirado no projeto do <a href="https://github.com/antonvinicius/churrascometro">Antônio Vinícius</a> 
-            <br>
-            <br>
+            - 
             Icons made by <a href="" title="prettycons">prettycons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            <br>
+            - 
             Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </footer>
         <script src="./js/script.js"></script>
