@@ -8,7 +8,7 @@ Projeto realizado para auxiliar pessoas que desejam fazer um churrasco e precisa
 
 Project carried out to help people who want to have a barbecue and need to know the amount of meat and drinks.
 
-## Layout Mobile
+## Layout
 ![Mobile 1](https://github.com/Zucheli/Barbecue/blob/main/assets/Churrascômetro.png) 
 ![Mobile 2](https://github.com/Zucheli/Barbecue/blob/main/assets/Churrascômetro2.png)
 
