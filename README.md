@@ -1,6 +1,6 @@
 # Barbecue
 
-## Sobre o Projeto / About Project
+## About Project
 
 [Site](https://barbecue.netlify.app)
 
@@ -17,8 +17,8 @@ Project carried out to help people who want to have a barbecue and need to know 
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-## Autor / Author
+## Author
 ![Linkedin](https://img.shields.io/badge/Mateus_Zucheli-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
 
-## Inspirado / Inspired
+## Inspired
 ![GitHub](https://img.shields.io/badge/antonvinicius-100000?style=for-the-badge&logo=github&logoColor=white)
