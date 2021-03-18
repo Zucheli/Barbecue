@@ -1,16 +1,18 @@
 # Barbecue
 
-## About Project
-
+## Site 
 [Site](https://barbecue.netlify.app)
 
-Projeto realizado para auxiliar pessoas que desejam fazer um churrasco e precisam saber a quantidade de carnes e bebidas.
-
-Project carried out to help people who want to have a barbecue and need to know the amount of meat and drinks.
+## About Project
+Project developed to help people who want to barbecue and need to know the amount of meat and drinks. Challenge given in the [Full Stack Web Development](https://programadorbr.com) course. 
 
 ## Layout
 ![Mobile 1](https://github.com/Zucheli/Barbecue/blob/main/assets/Churrascômetro.png) 
 ![Mobile 2](https://github.com/Zucheli/Barbecue/blob/main/assets/Churrascômetro2.png)
+
+## Improvements
+- Add more meat and drink options.
+- Define the number of people who will consume each meat or drink. 
 
 ## Technologies & Tools
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -19,6 +21,7 @@ Project carried out to help people who want to have a barbecue and need to know 
 
 ## Author
 ![Linkedin](https://img.shields.io/badge/Mateus_Zucheli-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
+![Email](https://img.shields.io/badge/mateuszucheli@hotmail.com-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)
 
 ## Inspired
 ![GitHub](https://img.shields.io/badge/antonvinicius-100000?style=for-the-badge&logo=github&logoColor=white)
